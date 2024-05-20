@@ -1,0 +1,212 @@
+*{
+    font-family: 'Trebuchet MS';
+}
+
+.div-form {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.div-title-form{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.div-form1{
+    margin: 13px;
+}
+
+.div-form2{
+    margin: 13px;
+    margin-bottom: 0px;
+}
+
+.div-btn-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-add{
+    padding: 5px;
+    padding-inline: 50px;
+    font-size: 18px;
+    background-color: rgb(24, 144, 224);
+    color:white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-add:hover{
+    background-color: rgb(17, 132, 208);
+    cursor: pointer
+}
+
+.btn-add:active{
+    background-color: rgb(2, 117, 194);
+    cursor: pointer
+}
+
+#candidate{
+    padding: 5px;
+    padding-right: 15px;
+    /* margin: 10px; */
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#candidate-c{
+    padding:3px;
+    border: 1px solid #ccc;
+}
+
+
+.container-divJS{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border: #ececec 1px solid;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+}
+
+.div-card{
+    width: 315px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-bottom: 15px;
+    /* margin-left: 10px;
+    margin-right: 10px;
+     */
+    padding: 15px;
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* font-size: 28px; */
+    /* font-family: 'Trebuchet MS'; */
+    background-color: rgb(255, 255, 255);
+}
+
+.div-card:hover{
+    /* cursor: pointer; */
+    box-shadow: 0px 1px 7px 2px rgba(103, 1, 1, 0.2);
+}
+
+.div-container-color, .div-votes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-name{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.div-color{
+    border: 1px solid;
+    /* padding-top: 1px;
+    padding-bottom: 1px; */
+    padding-inline: 25px;
+    border-radius: 3px;
+
+}
+
+.div-votes, .span-color{
+    font-size: 20px;
+}
+
+.div-votes, .div-container-color{
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+.div-btn-vote{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-vote{
+    margin: 3px;
+    margin-top: 15px;
+    padding: 5px;
+    padding-inline: 80px;
+    /* margin-bottom: 20px; */
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(24, 144, 224);
+    color:white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-vote:hover{
+    background-color: rgb(17, 132, 208);
+    cursor: pointer
+}
+
+.btn-vote:active{
+    background-color: rgb(2, 117, 194);
+    cursor: pointer
+}
+
+.div-btn-dlt{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-delete {
+    background: none;
+    border: none;
+    color: rgb(253, 166, 166); /* Color del enlace */
+    text-decoration: underline; /* Subrayado similar al de los enlaces */
+     /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    /* width: 98px; */
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+    padding: 0px; /* Elimina el relleno del botón */
+    /* font: inherit; Utiliza la fuente heredada */
+    display: inline; /* Hace que el botón se comporte como un enlace */
+}
+
+.btn-delete:hover{
+    color: rgb(247, 100, 100);
+    cursor: pointer;
+}
+
+.btn-delete:active{
+    color: rgb(237, 0, 0);
+}
+
+.hr{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* color: #ededed; */
+    border: 1px solid;
+}
